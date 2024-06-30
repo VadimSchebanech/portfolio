@@ -9,7 +9,7 @@
 body{
     @include flexSetupColumn;
 
-    background-image: url(../img/background-image.jpg);
+    background-image: url(./img/background-image.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
