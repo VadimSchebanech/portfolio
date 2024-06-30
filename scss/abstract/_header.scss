@@ -1,0 +1,71 @@
+header{
+    @include flexSetupColumn;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+
+    height: 100vh;
+    min-width: max-content;
+    padding: 0px 20px;
+
+    filter: drop-shadow(16px 16px 10px rgb(6, 10, 77));
+
+    li{
+        cursor: pointer;
+        list-style: none;
+    }
+
+    .logo{
+        height: 200px;
+        width: 200px;
+
+        background-image: url(/img/logo.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    nav{
+        ul{
+            @include flexSetupColumn;
+            gap: 50px;
+
+            a{
+                @include flexSetupRow;
+                justify-content: center;
+                align-items: center;
+
+                height: 70px;
+                width: 70px;
+
+                font-size: 1.5rem;
+                color: white;
+
+                border-radius: 50%;
+                background: rgb(83,15,223);
+                background: radial-gradient(circle, rgba(82,13,224,1) 22%, rgba(249,116,44,1) 81%);
+                box-shadow: 0px 0px 1px 7px rgba(24, 2, 148, 0.8);
+
+                &:hover{
+                    background: rgb(249,116,44);
+                    background: radial-gradient(circle, rgba(249,116,44,1) 22%, rgba(82,13,224,1) 81%);
+                }
+            }
+        }
+    }
+
+    .social-links{
+        font-size: 3rem;
+
+        ul{
+            @include flexSetupRow;
+            gap: 20px;
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

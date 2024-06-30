@@ -1,0 +1,9 @@
+footer{
+    @include flexSetupRow;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(249,116,44);
+    font-size: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+}

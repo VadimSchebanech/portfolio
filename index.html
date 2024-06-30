@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+      integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+    </script>
+    <script src="/scroll.js"></script>
+</head>
+<body id="home">
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#about"><i class="fa-solid fa-user"></i></a></li>
+                <li><a href="#projects"><i class="fa-solid fa-diagram-project"></i></a></li>
+                <li><a href="#contacts"><i class="fa-solid fa-envelope"></i></a></li>
+            </ul>
+        </nav>
+        <div class="social-links">
+            <ul>
+                <li><a href="http://www.instagram.com/_sheba_13/" target="_blank" rel=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://github.com/VadimSchebanech" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="home">
+            <h1>Welcome to the Site!</h1>
+        </div>
+        <div class="about" id="about">
+            <p>Hi there 👋</p>
+            <p>My Name is Vadim, I'm just an ordinary guy from Ukraine. Currently, I live in Germany.
+            I'm interested in technology and video games!
+            In the near future, I would like to become a specialist in the field of Web-Development.</p>
+            <p>(It would be very nice 😄)</p>
+        </div>
+        <div class="projects" id="projects">
+            <h1>My projects</h1>
+            <nav>
+                <ul>
+                    <li class="img-1"><a href="#">Go to Page <i class="fa-solid fa-square-arrow-up-right"></i></a></li>
+                    <li class="img-2"><a href="#">Go to Page <i class="fa-solid fa-square-arrow-up-right"></i></a></li>
+                    <li class="img-3"><a href="#">Go to Page <i class="fa-solid fa-square-arrow-up-right"></i></a></li>
+                    <li class="img-4"><a href="#">Go to Page <i class="fa-solid fa-square-arrow-up-right"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contacts" id="contacts">
+            <h1>Contact Me</h1>
+            <form action="#" method="post">
+                <div>
+                    <label for="nameid">Your name:</label>
+                    <input type="text" id="nameid" placeholder="Type your name" minlength="3" maxlength="20" required>
+                </div>
+                <div>
+                    <label for="emailid">E-mail:</label>
+                    <input type="email" id="emailid" placeholder="Type your email" minlength="3" maxlength="30" required>
+                </div>
+                <input type="submit" id="button" value="Submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&#169; Made by ME</p>
+    </footer>
+</body>
+</html>
